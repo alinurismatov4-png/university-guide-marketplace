@@ -1,0 +1,3 @@
+[build]
+  command = "pip install -r requirements.txt && python bootstrap.py && python build_netlify.py"
+  publish = "netlify_dist"
